@@ -1,0 +1,50 @@
+@font-face {
+	font-family:Semibold;
+	src: url(assets/fonts/Semibold.ttf) format('truetype');
+	font-style: normal; 
+}
+@font-face {
+	font-family: Medium;
+	src: url(assets/fonts/Medium.otf) format('truetype');
+	font-style: normal;
+}
+@font-face {
+	font-family: Regular;
+	src: url(assets/fonts/Regular.otf) format('truetype');
+	font-style: normal;
+}
+
+
+.bg-contact{
+    background-color: black;
+    color: white;
+    font-family: Semibold, georgia;
+}
+.header h2{
+    font-size: 5rem;
+    text-align: center;
+}
+.main-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    font-size: 1.3rem;
+}
+.info-container h4 {
+    font-size: 3rem;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links, .links a{
+    color: lightblue;
+    text-decoration: none;
+}

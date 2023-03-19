@@ -1,0 +1,57 @@
+@font-face {
+	font-family:Semibold;
+	src: url(assets/fonts/Semibold.ttf) format('truetype');
+	font-style: normal; 
+}
+@font-face {
+	font-family: Medium;
+	src: url(assets/fonts/Medium.otf) format('truetype');
+	font-style: normal;
+}
+@font-face {
+	font-family: Regular;
+	src: url(assets/fonts/Regular.otf) format('truetype');
+	font-style: normal;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Medium, Georgia;
+}
+.bg-about{
+    font-family: Semibold, Georgia;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container .header{
+    font-size: 5rem;
+    text-align: center;
+}
+.container .header span{
+    color: rgb(118, 8, 8);
+}
+.bg-about img{
+    width: 70%;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 5px rgba(27, 26, 26, 0.26);
+}
+h4 {
+    font-family: Semibold, Georgia;
+    font-size: 3rem;
+}
+.main-info{
+    font-family: Regular, Georgia;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-container{
+    width: 70%;
+    font-size: 1.3rem;
+}
+.large{
+    font-family: Medium;
+    font-size: 1.9rem;
+    padding-bottom: 25px;
+}

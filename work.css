@@ -1,0 +1,48 @@
+@font-face {
+	font-family:Semibold;
+	src: url(assets/fonts/Semibold.ttf) format('truetype');
+	font-style: normal; 
+}
+@font-face {
+	font-family: Medium;
+	src: url(assets/fonts/Medium.otf) format('truetype');
+	font-style: normal;
+}
+@font-face {
+	font-family: Regular;
+	src: url(assets/fonts/Regular.otf) format('truetype');
+	font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Medium, Georgia;
+}
+
+main{
+    max-width: 500px;
+    margin: auto;
+}
+.links {
+    margin-left: 0%;
+    
+}
+.links a{
+    color:lightblue;
+    text-decoration: none;
+    text-align: center;
+}
+
+.links h2 {
+    font-size: 42px;
+    text-align: center;
+}
+.links p {
+    font-size: 21px;
+    text-align: center;
+}
